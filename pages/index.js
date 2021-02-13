@@ -6,7 +6,7 @@ export default function Home() {
     <div className="font-inter">
       <Head>
         <title>Intience</title>
-        <link rel="icon" href="/dd.jpg" />
+        <link rel="icon" href="/intience logo.png" />
       </Head>
 
       <main>
@@ -17,8 +17,8 @@ export default function Home() {
             <img src="/dd.jpg" alt="logo" className="w-40 h-30"/>
         </div>
           
-          <div>
-              <nav className="font-semibold hidden lg:visible sm:flex invisible flex-row w-1/2">
+          <div className="w-1/2">
+              <nav className="font-semibold text-gray-700  hidden lg:visible sm:flex invisible flex-row">
                   <p className="m-5">Work</p>
                   <p className="m-5">Products</p>
                   <p className="m-5">Pricing</p>
@@ -29,8 +29,8 @@ export default function Home() {
         </div>
 
         <div className="h-screen flex w-full flex-wrap flex-col sm:flex-row">
-            <div className=" flex-1 m-1 sm:m-5 p-2 sm:m-10 mb-20 sm:mb-0 pl-10">
-                <h1 className="ml-2 sm:ml-20 mb-5 text-5xl mt-20 font-bold">Build Impactful and scaleable products </h1>
+            <div className=" flex-1 m-1 sm:m-5 p-2 sm:m-10 mb-20 sm:mb-0 pl-5 lg:pl-10">
+                <h1 className="ml-2 sm:ml-20 mb-5 text-5xl mt-10 lg:mt-20 text-gray-700 font-bold">Build Impactful and scaleable products </h1>
                 <p className="ml-2 sm:ml-20 mb-5 text-lg w-96">Intience is a user centric digital agency that helps individuals, businesses and governments build impactful digital products</p>
                 <div className="ml-2 sm:m-20 mt-5">
                     <button className="ml-0 m-1 bg-blue-800 hover:bg-blue-500 text-white font-bold py-4 px-6 rounded shadow-xl">Talk to Us</button>
