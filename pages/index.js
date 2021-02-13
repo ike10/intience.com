@@ -28,7 +28,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="h-screen flex w-full flex-wrap flex-col sm:flex-row">
+        <div className="h-screen flex w-full flex-col lg:flex-row">
             <div className=" flex-1 m-1 sm:m-5 p-2 sm:m-10 mb-20 sm:mb-0 pl-5 lg:pl-10">
                 <h1 className="ml-2 sm:ml-20 mb-5 text-5xl mt-10 lg:mt-20 text-gray-700 font-bold">Build Impactful and scaleable products </h1>
                 <p className="ml-2 sm:ml-20 mb-5 text-lg w-96">Intience is a user centric digital agency that helps individuals, businesses and governments build impactful digital products</p>
@@ -36,88 +36,77 @@ export default function Home() {
                     <button className="ml-0 m-1 bg-blue-800 hover:bg-blue-500 text-white font-bold py-4 px-6 rounded shadow-xl">Talk to Us</button>
                 </div>
             </div>
-            <div className="flex-1 mt-20 sm:mt-0" >
-                <p>Insert Image here</p>
+            <div className="flex-1 hidden invisible lg:flex lg:visible mt-20 mb-40 mr-10 p-5" >
+                <img src="/home image.jpg" alt="logo" className="flex-grow"/>
             </div>
         </div>
         </div>
         {/* About Us */}
         <div className="lg:h-screen w-full">
             <div className="w-full flex justify-center flex-column">
-                <h1 className="text-5xl text-black font-bold text-center">What we do</h1>
+                <h1 className="text-5xl text-gray-700 font-bold text-center">What we do</h1>
             </div>
             <div className="w-full flex flex-row flex-wrap p-20 justify-center">
                 <div className="m-5 p-5 bg-blue flex flex-col content-center h-64 w-64 text-center">
-                    <h3 className="mb-5 text-2xl text-blue-800 font-semibold">Mobile Development</h3>
-                    <p>We utilize cutting edge technology to build world class android and ios apps</p>
+                    <h3 className="mb-5 text-2xl text-gray-700 font-semibold">Web Development</h3>
+                    <p>we build interactive and scaleable web based applications for our customers </p>
                 </div>
                <div className="m-5 p-5 bg-blue flex flex-col content-center h-64 w-64 text-center">
-                    <h3 className="mb-5 text-2xl text-blue-800 font-semibold">Mobile Development</h3>
+                    <h3 className="mb-5 text-2xl text-gray-700 font-semibold">Product Development</h3>
+                    <p>We commit the best resources and thoughfulness into building products that exceeds customers expectations</p>
+                </div>
+                <div className="m-5 p-5 bg-blue flex flex-col content-center h-64 w-64 text-center">
+                    <h3 className="mb-5 text-2xl text-gray-700 font-semibold">Mobile Development</h3>
                     <p>We utilize cutting edge technology to build world class android and ios apps</p>
                 </div>
                 <div className="m-5 p-5 bg-blue flex flex-col content-center h-64 w-64 text-center">
-                    <h3 className="mb-5 text-2xl text-blue-800 font-semibold">Mobile Development</h3>
-                    <p>We utilize cutting edge technology to build world class android and ios apps</p>
+                    <h3 className="mb-5 text-2xl text-gray-700 font-semibold">Ui/Ux Design</h3>
+                    <p>Human centred design is our watchword when designing and curating excellent design experiences</p>
                 </div>
                 <div className="m-5 p-5 bg-blue flex flex-col content-center h-64 w-64 text-center">
-                    <h3 className="mb-5 text-2xl text-blue-800 font-semibold">Mobile Development</h3>
-                    <p>We utilize cutting edge technology to build world class android and ios apps</p>
-                </div>
-                <div className="m-5 p-5 bg-blue flex flex-col content-center h-64 w-64 text-center">
-                    <h3 className="mb-5 text-2xl text-blue-800 font-semibold">Mobile Development</h3>
-                    <p>We utilize cutting edge technology to build world class android and ios apps</p>
+                    <h3 className="mb-5 text-2xl text-gray-700 font-semibold">Desktop Development</h3>
+                    <p>Our development team is experienced in building high performant applications for windows and mac operating systems</p>
                 </div>
                <div className="m-5 p-5 bg-blue flex flex-col content-center h-64 w-64 text-center">
-                    <h3 className="mb-5 text-2xl text-blue-800 font-semibold">Mobile Development</h3>
-                    <p>We utilize cutting edge technology to build world class android and ios apps</p>
+                    <h3 className="mb-5 text-2xl text-gray-700 font-semibold">Business Consultancy</h3>
+                    <p>We utilize the power of data to help our clients make better decisions to grow and expand their businesses</p>
                 </div>
                 <div className="m-5 p-5 bg-blue flex flex-col content-center h-64 w-64 text-center">
-                    <h3 className="mb-5 text-2xl text-blue-800 font-semibold">Mobile Development</h3>
-                    <p>We utilize cutting edge technology to build world class android and ios apps</p>
+                    <h3 className="mb-5 text-2xl text-gray-700 font-semibold">Hardware Development</h3>
+                    <p>Our team is able to build out quantitative and qualitative hardware solutins as required by customers</p>
                 </div>
                 <div className="m-5 p-5 bg-blue flex flex-col content-center h-64 w-64 text-center">
-                    <h3 className="mb-5 text-2xl text-blue-800 font-semibold">Mobile Development</h3>
-                    <p>We utilize cutting edge technology to build world class android and ios apps</p>
+                    <h3 className="mb-5 text-2xl text-gray-700 font-semibold">Data analytics</h3>
+                    <p>We deliver the best experiences when it comes to data analytics in helping clients understand their users and businesses better </p>
                 </div>
             </div>
         </div>
 
         {/* Our creative process */}
         <div className="m-2 lg:h-screen w-full">
-            <div><h1 className="text-5xl text-black font-bold text-center">Our Creative Process</h1></div>
+            <div><h1 className="text-5xl text-gray-700 font-bold text-center">Our Creative Process</h1></div>
             <div className="flex flex-row flex-wrap p-20 justify-center" >
-                <div className="m-5 p-5 bg-gray-300 flex flex-col content-center h-64 w-64 text-center">
-                    <h3 className="mb-5 text-2xl text-black font-semibold">Mobile Development</h3>
-                    <p>We utilize cutting edge technology to build world class android and ios apps</p>
+                <div className="justify-center m-5 p-5 bg-blue-500 flex flex-col rounded-2xl content-center h-64 w-64 text-center">
+                    <h3 className="mb-5 text-2xl text-white font-semibold">Empathize</h3>
+                    <p className="text-white">We employ a human centred approach to problem solving therefore we try to gain understading of the problem from a customer POV</p>
                 </div>
-                <div className="m-5 p-5 bg-blue flex flex-col content-center h-64 w-64 text-center">
-                    <h3 className="mb-5 text-2xl text-blue-800 font-semibold">Mobile Development</h3>
-                    <p>We utilize cutting edge technology to build world class android and ios apps</p>
+                <div className="justify-center m-5 p-5 bg-green-500 rounded-2xl  flex flex-col content-center h-64 w-64 text-center">
+                    <h3 className="text-white mb-5 text-2xl  font-semibold">Prototype</h3>
+                    <p className="text-white">After coming up with multiple solutions we test our ideas and products against the real world to get accurate feedback</p>
                 </div>
-                <div className="m-5 p-5 bg-blue flex flex-col content-center h-64 w-64 text-center">
-                    <h3 className="mb-5 text-2xl text-blue-800 font-semibold">Mobile Development</h3>
-                    <p>We utilize cutting edge technology to build world class android and ios apps</p>
+                <div className="justify-center m-5 p-5 bg-red-500 flex flex-col rounded-2xl content-center h-64 w-64 text-center">
+                    <h3 className="mb-5 text-2xl text-white text-2xl font-semibold">Launch</h3>
+                    <p className="text-white">We Launch the project into the wild and let our result speak for us</p>
                 </div>
                 
             </div>
         </div>
 
         {/* Product ShowCase */}
-        <div  className=" w-full">
-            <div>
-                <h1>Product Showcase</h1>
-            </div>
-            <div className="w-full ">
-                <div className="w-full bg-blue-800 flex flex-wrap flex-row">
-                    <div className="p-20">
-                        <h3 className="mb-10 text-4xl text-white font-bold">Sonic.io</h3>
-                         <p className="mb-10 text-1xl text-white"> Fast and easy invoicing for entrepreneu4rs and freelanceras in nigeris</p>
-                         <button>Explore</button>
-                    </div>
-                    <div>
-                        <p>Insert image here</p>
-                    </div>
-                </div>
+        <div  className=" w-full h-screen flex flex-col">
+             <div><h1 className="text-5xl h-1/2 text-gray-700 font-bold mb-10 text-center">Product Showcase</h1></div>
+            <div className="w-full h-1/2 justify-center">
+                 <div><h1 className="text-3xl text-gray-700 font-bold text-center">Coming Soon...</h1></div>
             </div>
         </div>
       </main>
