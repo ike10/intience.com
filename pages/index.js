@@ -7,6 +7,7 @@ export default function Home() {
     <div className="font-inter">
       <Head>
         <title>Intience</title>
+    <meta name="google-site-verification" content="_UHbz8lykoq1BPL0sWqMueDMP2h9VBBILtGjCt4q94g" />
         <link rel="icon" href="/intience logo.png" />
       </Head>
 
