@@ -56,7 +56,7 @@ export default function Home() {
         {/* what we do */}
         <div className="lg:h-screen w-full">
             <div className="w-full flex justify-center flex-column">
-                <h1 className="text-5xl text-gray-700 font-bold">What we do</h1>
+                <h1 className="text-5xl text-gray-700 font-bold">Fuccck hat we do</h1>
             </div>
             <div className="w-full flex flex-row flex-wrap p-5 lg:p-20 justify-center">
                 <div className="m-5 p-5 bg-blue flex flex-col content-center h-64 w-64">
