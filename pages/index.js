@@ -82,13 +82,13 @@ export default function Home() {
             backgroundColor:'#131313',
         }}
         >
-            <div className="w-full flex flex-column pl-5 sm:pl-10">
+            <div className="w-full flex flex-column pl-2 sm:pl-10">
                 <h1 className="text-5xl text-white font-bold"><u>What we do</u></h1>
                
             </div>
-            <div className="w-full flex flex-col p-5 sm:p-20 justify-center">
-                <div className="m-2 sm:m-5 -2 sm:p-5 text-white flex flex-col sm:flex-row content-center h-full sm:h-64 w-full">
-                    <h3 className="mb-5 w-full sm:w-1/2 text-3xl text-white semibold">Web Development</h3>
+            <div className="w-full flex flex-col p-0 sm:p-20 justify-center">
+                <div className="m-2 sm:m-5 p-2 sm:p-5 text-white flex flex-col sm:flex-row content-center h-full sm:h-64 w-full">
+                    <h3 className="mb-5 w-full sm:w-1/2 text-3xl text-white">Web Development</h3>
                     <div className="flex-col w-full sm:w-1/2 flex">
                      <p className="text-lg sm:text-2xl">we build interactive and scaleable web based applications for our customers </p> 
                      <p className="text-sm sm:text-lg mt-2">we build interactive and scaleable web based applications for our customers </p> 
@@ -97,22 +97,22 @@ export default function Home() {
                  <div className="m-2 sm:m-5 p-2 sm:p-5 text-white flex flex-col sm:flex-row content-center h-full sm:h-64 w-full">
                         <h3 className="mb-5 w-full sm:w-1/2 text-2xl text-white font-semibold">Product Development</h3>
                         <div className="flex-col w-full sm:w-1/2 flex">
-                        <p className="text-2xl">We commit the best resources and thoughfulness into building products that exceeds customers expectations</p> 
-                        <p className="text-lg mt-2">We commit the best resources and thoughfulness into building products that exceeds customers expectations</p> 
+                        <p className="text-lg sm:text-2xl">We commit the best resources and thoughfulness into building products that exceeds customers expectations</p> 
+                        <p className="text-sm sm:text-lg mt-2">We commit the best resources and thoughfulness into building products that exceeds customers expectations</p> 
                         </div>       
                     </div>
                     <div className="m-2 sm:m-5 p-2 sm:p-5 text-white flex flex-col sm:flex-row content-center h-full sm:h-64 w-full">
                         <h3 className="mb-5 w-full sm:w-1/2 text-2xl text-white font-semibold">Mobile Development</h3>
                         <div className="flex-col w-full sm:w-1/2 flex flex-col">
-                        <p className="text-2xl">We utilize cutting edge technology to build world class android and ios apps</p> 
-                        <p className="text-lg mt-2">We utilize cutting edge technology to build world class android and ios apps</p> 
+                        <p className="text-lg sm:text-2xl">We utilize cutting edge technology to build world class android and ios apps</p> 
+                        <p className="text-sm sm:text-lg mt-2">We utilize cutting edge technology to build world class android and ios apps</p> 
                         </div>       
                     </div>
                     <div className="m-2 sm:m-5 p-2 sm:p-5 text-white flex flex-col sm:flex-row content-center h-full sm:h-64 w-full">
                         <h3 className="mb-5 w-full  sm:w-1/2 text-2xl text-white font-semibold">Mobile Development</h3>
                         <div className="flex-col flex w-full sm:w-1/2">
-                        <p className="text-2xl">We utilize cutting edge technology to build world class android and ios apps</p> 
-                        <p className="text-lg mt-2">We utilize cutting edge technology to build world class android and ios apps</p> 
+                        <p className="text-lg sm:text-2xl">We utilize cutting edge technology to build world class android and ios apps</p> 
+                        <p className="text-sm sm:text-lg mt-2">We utilize cutting edge technology to build world class android and ios apps</p> 
                         </div>       
                     </div>
 
