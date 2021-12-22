@@ -159,7 +159,19 @@ export default function Home() {
                     
                     </div>       
                 </div>
-              
+                <div className="m-2 sm:m-5 p-2 sm:p-5 text-gray-700 flex flex-col sm:flex-row content-center h-full w-full">
+                <div className="w-full sm:w-1/2 flex-col justify-center items-center pt-10">
+                    <h3 className="mb-5 w-2/3 text-3xl text-black font-semibold">Cruise9ja</h3>
+                </div>
+                    <div className="flex-col flex w-full sm:w-1/2">
+                     <p className="text-2xl">A full scale business automation platform for small businesses </p> 
+                     <p className="text-lg mt-2">we build interactive and scaleable web based applications for our customers </p> 
+                    <div className="mt-5 w-full">         
+                        <div className=" text-black w-28 h-10 border border-gray-800 hover:bg-gray-800 hover:text-white cursor-pointer justify-center items-center flex "><p>Explore</p></div>
+                    </div>
+                    
+                    </div>       
+                </div>
                   
             </div>
         </div>
